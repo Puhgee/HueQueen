@@ -1,0 +1,48 @@
+{
+    "author": "puhgee@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "huequeen",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "HueQueen",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "IP": 0,
+            "Ligth": 2,
+            "User": 1,
+            "url": 3
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/huequeen_64.png",
+                    "name": "img_queen",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/huequeen_28.png",
+                    "menuIcon": true,
+                    "name": "menue_img",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "df274b92-042b-4fc5-bfdc-b076ebbeb67d",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
